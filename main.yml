@@ -3,6 +3,7 @@
 
   vars_files:
     - default.config.yml
+    - mas.creds.yml
 
   pre_tasks:
     - include_vars: "{{ item }}"

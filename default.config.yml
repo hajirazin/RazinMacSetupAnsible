@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - wrk
   - zsh
   - autojump
+  - mas
 
 homebrew_taps:
   - homebrew/core
@@ -64,9 +65,12 @@ homebrew_cask_apps:
   - sequel-pro
   - transmit
   - iterm2
+  - postman
   
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 497799835, name: "Xcode" }
+
 mas_email: ""
 mas_password: ""
 
