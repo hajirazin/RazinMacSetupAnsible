@@ -67,6 +67,8 @@ homebrew_cask_apps:
   - transmit
   - iterm2
   - postman
+  - adoptopenjdk11
+  - adoptopenjdk13
   
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
