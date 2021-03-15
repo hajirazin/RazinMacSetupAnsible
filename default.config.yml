@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - postman
   - adoptopenjdk11
   - adoptopenjdk13
+  - responsively
   
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
