@@ -52,10 +52,12 @@ homebrew_installed_packages:
   - autojump
   - mas
   - yarn
+  - dart
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - dart-lang/dart
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
