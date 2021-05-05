@@ -53,6 +53,7 @@ homebrew_installed_packages:
   - mas
   - yarn
   - dart
+  - dep
 
 homebrew_taps:
   - homebrew/core
