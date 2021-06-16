@@ -72,7 +72,8 @@ homebrew_cask_apps:
   - postman
   - adoptopenjdk11
   - adoptopenjdk13
-  - responsively
+  # - responsively does not work if already installed, buggy
+  - dotnet-sdk
   
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
