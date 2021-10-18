@@ -25,7 +25,11 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
+  - autojump
   - bash-completion
+  - cowsay
+  - dart
+  - dep
   - doxygen
   - gettext
   - gifsicle
@@ -36,24 +40,20 @@ homebrew_installed_packages:
   - httpie
   - iperf
   - libevent
-  - sqlite
+  - mas
   - mcrypt
   - nmap
   - node
   - nvm
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
   - pv
+  - readline
+  - sqlite
+  - ssh-copy-id
   - wget
   - wrk
-  - zsh
-  - autojump
-  - mas
   - yarn
-  - dart
-  - dep
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -62,18 +62,19 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - handbrake
-  - licecap
-  - sequel-pro
-  - transmit
-  - iterm2
-  - postman
   - adoptopenjdk11
   - adoptopenjdk13
-  # - responsively does not work if already installed, buggy
+  - chromedriver
+  - docker
   - dotnet-sdk
+  - handbrake
+  - iterm2
+  - licecap
+  - postman
+  - raycast
+  - sequel-pro
+  - transmit
+  # - responsively does not work if already installed, buggy
   
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
@@ -92,7 +93,7 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: ["eslint", "ts-node", "redis-commander"]
+npm_packages: ["eslint", "ts-node", "redis-commander", "lerna", "jest"]
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
