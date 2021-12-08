@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - readline
+  - redis
   - sqlite
   - ssh-copy-id
   - wget
@@ -64,6 +65,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adoptopenjdk11
   - adoptopenjdk13
+  - cakebrew
   - chromedriver
   - docker
   - dotnet-sdk
